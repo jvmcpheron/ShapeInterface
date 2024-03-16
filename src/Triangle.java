@@ -1,7 +1,8 @@
 public class Triangle implements IShape {
 
     @Override
-    public void draw() {
+    public short draw() {
         System.out.println("<|");
+        return 0;
     }
 }
