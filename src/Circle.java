@@ -1,8 +1,7 @@
 public class Circle implements IShape{
 
     @Override
-    public short draw() {
+    public void draw() {
         System.out.println("O");
-        return 0;
     }
 }

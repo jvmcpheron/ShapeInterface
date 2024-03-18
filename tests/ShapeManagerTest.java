@@ -11,6 +11,7 @@ public class ShapeManagerTest {
         myManager.addShape("Circle");
         myManager.addShape("Circle");
         myManager.addShape("Triangle");
+        myManager.addShape("Star");
 
         Vector<IShape> myShapes = myManager.getAllShapes();
 
@@ -18,5 +19,6 @@ public class ShapeManagerTest {
         assertTrue(myShapes.get(0) instanceof Circle);
         assertTrue(myShapes.get(1) instanceof Circle);
         assertTrue(myShapes.get(2) instanceof Triangle);
+        assertTrue(myShapes.get(3) instanceof Star);
     }
 }

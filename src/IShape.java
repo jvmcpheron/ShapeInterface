@@ -1,3 +1,3 @@
 public interface IShape {
-    public short draw();
+    public void draw();
 }

@@ -4,6 +4,8 @@ public class ShapeFactory {
             return new Circle();
         }else if(shapeType.equals("Triangle")){
             return new Triangle();
+        }else if(shapeType.equals("Star")){
+            return new Star();
         }
         return null;
     }
